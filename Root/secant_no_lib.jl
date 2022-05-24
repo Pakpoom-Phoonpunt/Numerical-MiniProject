@@ -44,7 +44,7 @@ for i in 1:3000
     a4 = round(rand(Uniform(-1000.0,1000.0)) ,digits = 2) ; a5 = round(rand(Uniform(-1000.0,1000.0)) ,digits = 2)
     a6 = round(rand(Uniform(-1000.0,1000.0)) ,digits = 2) ; a7 = round(rand(Uniform(-1000.0,1000.0)) ,digits = 2)
     a8 = round(rand(Uniform(-1000.0,1000.0)) ,digits = 2) ; a9 = round(rand(Uniform(-1000.0,1000.0)) ,digits = 2)
-    g(x) =  a6*(x^6) + a5*(x^5) + a4*(x^4) + a3*(x^3) + a2*(x^2) + a1*(x^1) + a0*(x^0)
+    g(x) =  a9*(x^9) + a8*(x^8) + a7*(x^7) + a6*(x^6) + a5*(x^5) + a4*(x^4) + a3*(x^3) + a2*(x^2) + a1*(x^1) + a0*(x^0)
     firstval = 1
     secval = anotherVal(g,firstval,-1)
     local ans = secant(g , firstval , secval , 1000)
