@@ -1,7 +1,6 @@
 import random
 import timeit
 from scipy import optimize
-import numpy as np
 def anotherVal(f,a,b):
     step = 1
     while(f(a)*f(b) >= 0):
